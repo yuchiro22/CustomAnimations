@@ -1,0 +1,3 @@
+class TappedButtonFade: UIButton {
+    
+}
