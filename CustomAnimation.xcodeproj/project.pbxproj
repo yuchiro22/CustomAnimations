@@ -46,7 +46,7 @@
 		505A7918240A0C6500CF38C8 = {
 			isa = PBXGroup;
 			children = (
-				505A7923240A0C6500CF38C8 /* CustomButtonAnimation */,
+				505A7923240A0C6500CF38C8 /* CustomAnimation */,
 				505A7922240A0C6500CF38C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,7 +59,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		505A7923240A0C6500CF38C8 /* CustomButtonAnimation */ = {
+		505A7923240A0C6500CF38C8 /* CustomAnimation */ = {
 			isa = PBXGroup;
 			children = (
 				505A7938240A0CA500CF38C8 /* TappedButton */,
@@ -71,7 +71,7 @@
 				505A792F240A0C6700CF38C8 /* LaunchScreen.storyboard */,
 				505A7932240A0C6700CF38C8 /* Info.plist */,
 			);
-			path = CustomButtonAnimation;
+			path = CustomAnimation;
 			sourceTree = "<group>";
 		};
 		505A7938240A0CA500CF38C8 /* TappedButton */ = {
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		505A7920240A0C6500CF38C8 /* CustomButtonAnimation */ = {
+		505A7920240A0C6500CF38C8 /* CustomAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 505A7935240A0C6700CF38C8 /* Build configuration list for PBXNativeTarget "CustomButtonAnimation" */;
+			buildConfigurationList = 505A7935240A0C6700CF38C8 /* Build configuration list for PBXNativeTarget "CustomAnimation" */;
 			buildPhases = (
 				505A791D240A0C6500CF38C8 /* Sources */,
 				505A791E240A0C6500CF38C8 /* Frameworks */,
@@ -99,7 +99,7 @@
 			);
 			dependencies = (
 			);
-			name = CustomButtonAnimation;
+			name = CustomAnimation;
 			productName = CustomButtonAnimation;
 			productReference = 505A7921240A0C6500CF38C8 /* CustomAnimation.app */;
 			productType = "com.apple.product-type.application";
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				505A7920240A0C6500CF38C8 /* CustomButtonAnimation */,
+				505A7920240A0C6500CF38C8 /* CustomAnimation */,
 			);
 		};
 /* End PBXProject section */
@@ -305,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CustomButtonAnimation/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CustomAnimation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CustomButtonAnimation/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CustomAnimation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		505A7935240A0C6700CF38C8 /* Build configuration list for PBXNativeTarget "CustomButtonAnimation" */ = {
+		505A7935240A0C6700CF38C8 /* Build configuration list for PBXNativeTarget "CustomAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				505A7936240A0C6700CF38C8 /* Debug */,
