@@ -1,6 +1,6 @@
 import UIKit
 
-class TappedButtonViewController: UIViewController {
+class ButtonAnimationViewController: UIViewController {
     @IBOutlet private weak var fadeButton: FadableButton!
 
     override func viewDidLoad() {

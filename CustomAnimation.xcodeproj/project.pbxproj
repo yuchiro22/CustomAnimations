@@ -13,8 +13,8 @@
 		505A792C240A0C6500CF38C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505A792A240A0C6500CF38C8 /* Main.storyboard */; };
 		505A792E240A0C6600CF38C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505A792D240A0C6600CF38C8 /* Assets.xcassets */; };
 		505A7931240A0C6700CF38C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505A792F240A0C6700CF38C8 /* LaunchScreen.storyboard */; };
-		505A793B240A0CD200CF38C8 /* TappedButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A7939240A0CD200CF38C8 /* TappedButtonViewController.swift */; };
-		505A7940240A0FD500CF38C8 /* TappedButtonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505A793F240A0FD400CF38C8 /* TappedButtonViewController.storyboard */; };
+		505A793B240A0CD200CF38C8 /* ButtonAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A7939240A0CD200CF38C8 /* ButtonAnimationViewController.swift */; };
+		505A7940240A0FD500CF38C8 /* ButtonAnimationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505A793F240A0FD400CF38C8 /* ButtonAnimationViewController.storyboard */; };
 		505A7945240A1A2500CF38C8 /* FadableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A7944240A1A2500CF38C8 /* FadableButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,8 +27,8 @@
 		505A792D240A0C6600CF38C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		505A7930240A0C6700CF38C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		505A7932240A0C6700CF38C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		505A7939240A0CD200CF38C8 /* TappedButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappedButtonViewController.swift; sourceTree = "<group>"; };
-		505A793F240A0FD400CF38C8 /* TappedButtonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TappedButtonViewController.storyboard; sourceTree = "<group>"; };
+		505A7939240A0CD200CF38C8 /* ButtonAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimationViewController.swift; sourceTree = "<group>"; };
+		505A793F240A0FD400CF38C8 /* ButtonAnimationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ButtonAnimationViewController.storyboard; sourceTree = "<group>"; };
 		505A7944240A1A2500CF38C8 /* FadableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadableButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,26 +62,34 @@
 		505A7923240A0C6500CF38C8 /* CustomAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				505A7938240A0CA500CF38C8 /* TappedButton */,
-				505A7924240A0C6500CF38C8 /* AppDelegate.swift */,
-				505A7926240A0C6500CF38C8 /* SceneDelegate.swift */,
-				505A7928240A0C6500CF38C8 /* ViewController.swift */,
-				505A792A240A0C6500CF38C8 /* Main.storyboard */,
+				505A7946240A1EF000CF38C8 /* Base */,
+				505A7938240A0CA500CF38C8 /* ButtonAnimation */,
 				505A792D240A0C6600CF38C8 /* Assets.xcassets */,
-				505A792F240A0C6700CF38C8 /* LaunchScreen.storyboard */,
 				505A7932240A0C6700CF38C8 /* Info.plist */,
 			);
 			path = CustomAnimation;
 			sourceTree = "<group>";
 		};
-		505A7938240A0CA500CF38C8 /* TappedButton */ = {
+		505A7938240A0CA500CF38C8 /* ButtonAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				505A7939240A0CD200CF38C8 /* TappedButtonViewController.swift */,
-				505A793F240A0FD400CF38C8 /* TappedButtonViewController.storyboard */,
+				505A7939240A0CD200CF38C8 /* ButtonAnimationViewController.swift */,
+				505A793F240A0FD400CF38C8 /* ButtonAnimationViewController.storyboard */,
 				505A7944240A1A2500CF38C8 /* FadableButton.swift */,
 			);
-			path = TappedButton;
+			path = ButtonAnimation;
+			sourceTree = "<group>";
+		};
+		505A7946240A1EF000CF38C8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				505A792F240A0C6700CF38C8 /* LaunchScreen.storyboard */,
+				505A7924240A0C6500CF38C8 /* AppDelegate.swift */,
+				505A7926240A0C6500CF38C8 /* SceneDelegate.swift */,
+				505A792A240A0C6500CF38C8 /* Main.storyboard */,
+				505A7928240A0C6500CF38C8 /* ViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				505A7931240A0C6700CF38C8 /* LaunchScreen.storyboard in Resources */,
-				505A7940240A0FD500CF38C8 /* TappedButtonViewController.storyboard in Resources */,
+				505A7940240A0FD500CF38C8 /* ButtonAnimationViewController.storyboard in Resources */,
 				505A792E240A0C6600CF38C8 /* Assets.xcassets in Resources */,
 				505A792C240A0C6500CF38C8 /* Main.storyboard in Resources */,
 			);
@@ -156,7 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				505A793B240A0CD200CF38C8 /* TappedButtonViewController.swift in Sources */,
+				505A793B240A0CD200CF38C8 /* ButtonAnimationViewController.swift in Sources */,
 				505A7945240A1A2500CF38C8 /* FadableButton.swift in Sources */,
 				505A7929240A0C6500CF38C8 /* ViewController.swift in Sources */,
 				505A7925240A0C6500CF38C8 /* AppDelegate.swift in Sources */,
