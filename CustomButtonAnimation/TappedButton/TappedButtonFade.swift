@@ -1,3 +1,5 @@
-class TappedButtonFade: UIButton {
+import UIKit
+
+final class TappedButtonFade: UIButton {
     
 }

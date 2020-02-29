@@ -14,8 +14,8 @@
 		505A792E240A0C6600CF38C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505A792D240A0C6600CF38C8 /* Assets.xcassets */; };
 		505A7931240A0C6700CF38C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505A792F240A0C6700CF38C8 /* LaunchScreen.storyboard */; };
 		505A793B240A0CD200CF38C8 /* TappedButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A7939240A0CD200CF38C8 /* TappedButtonViewController.swift */; };
-		505A793C240A0CD200CF38C8 /* TappedButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505A793A240A0CD200CF38C8 /* TappedButtonViewController.xib */; };
 		505A793E240A0CF000CF38C8 /* TappedButtonFade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A793D240A0CF000CF38C8 /* TappedButtonFade.swift */; };
+		505A7940240A0FD500CF38C8 /* TappedButtonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505A793F240A0FD400CF38C8 /* TappedButtonViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		505A7930240A0C6700CF38C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		505A7932240A0C6700CF38C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		505A7939240A0CD200CF38C8 /* TappedButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappedButtonViewController.swift; sourceTree = "<group>"; };
-		505A793A240A0CD200CF38C8 /* TappedButtonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TappedButtonViewController.xib; sourceTree = "<group>"; };
 		505A793D240A0CF000CF38C8 /* TappedButtonFade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappedButtonFade.swift; sourceTree = "<group>"; };
+		505A793F240A0FD400CF38C8 /* TappedButtonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TappedButtonViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				505A7939240A0CD200CF38C8 /* TappedButtonViewController.swift */,
-				505A793A240A0CD200CF38C8 /* TappedButtonViewController.xib */,
+				505A793F240A0FD400CF38C8 /* TappedButtonViewController.storyboard */,
 				505A793D240A0CF000CF38C8 /* TappedButtonFade.swift */,
 			);
 			path = TappedButton;
@@ -142,8 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				505A793C240A0CD200CF38C8 /* TappedButtonViewController.xib in Resources */,
 				505A7931240A0C6700CF38C8 /* LaunchScreen.storyboard in Resources */,
+				505A7940240A0FD500CF38C8 /* TappedButtonViewController.storyboard in Resources */,
 				505A792E240A0C6600CF38C8 /* Assets.xcassets in Resources */,
 				505A792C240A0C6500CF38C8 /* Main.storyboard in Resources */,
 			);
