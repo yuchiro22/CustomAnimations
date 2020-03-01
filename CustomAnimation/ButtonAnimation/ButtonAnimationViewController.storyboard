@@ -49,14 +49,16 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Sf-UV-5yN" customClass="ChangeBackgroundColorButton" customModule="CustomAnimation" customModuleProvider="target">
                                 <rect key="frame" x="157" y="294" width="100" height="50"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="2MG-1w-zHc"/>
                                     <constraint firstAttribute="width" constant="100" id="Y25-JI-85e"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Layered"/>
+                                <state key="normal" title="Layered">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <integer key="value" value="5"/>
@@ -76,6 +78,7 @@
                         <viewLayoutGuide key="safeArea" id="lhx-hd-IbQ"/>
                     </view>
                     <connections>
+                        <outlet property="changeBackgroundColorButton" destination="2Sf-UV-5yN" id="T77-GF-1vd"/>
                         <outlet property="fadeButton" destination="Vh1-gJ-XuI" id="pLG-T1-ZvP"/>
                     </connections>
                 </viewController>

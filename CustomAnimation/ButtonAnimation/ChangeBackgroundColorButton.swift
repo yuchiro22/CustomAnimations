@@ -6,7 +6,7 @@ final class ChangeBackgroundColorButton: UIButton {
         UIView.animate(
             withDuration: .defaultAnimationDuration,
             animations: {
-                self.backgroundColor = UIColor(displayP3Red: 1, green: 1, blue: 1, alpha: 1)
+                self.alpha = 0.9
         })
     }
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
