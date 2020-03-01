@@ -31,11 +31,29 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gds-zP-XpZ" customClass="MinimizableButton" customModule="CustomAnimation" customModuleProvider="target">
+                                <rect key="frame" x="157" y="194" width="100" height="50"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="LVq-Lg-fts"/>
+                                    <constraint firstAttribute="width" constant="100" id="UaB-XQ-lqE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Minimize"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Vh1-gJ-XuI" firstAttribute="top" secondItem="lhx-hd-IbQ" secondAttribute="top" constant="50" id="M80-UX-Ptz"/>
                             <constraint firstItem="Vh1-gJ-XuI" firstAttribute="centerX" secondItem="lhx-hd-IbQ" secondAttribute="centerX" id="TR3-Zk-wcC"/>
+                            <constraint firstItem="Gds-zP-XpZ" firstAttribute="top" secondItem="Vh1-gJ-XuI" secondAttribute="bottom" constant="50" id="q2y-1r-vns"/>
+                            <constraint firstItem="Gds-zP-XpZ" firstAttribute="centerX" secondItem="lhx-hd-IbQ" secondAttribute="centerX" id="uBO-YL-0Dj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lhx-hd-IbQ"/>
                     </view>
