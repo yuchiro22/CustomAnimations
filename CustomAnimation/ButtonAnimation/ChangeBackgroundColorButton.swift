@@ -2,18 +2,20 @@ import Foundation
 import UIKit
 
 final class ChangeBackgroundColorButton: UIButton {
+    private let layeredColor: UIColor = UIColor(named: "layeredColor")!
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         UIView.animate(
             withDuration: .defaultAnimationDuration,
             animations: {
-                self.alpha = 0.9
+                self.backgroundColor = self.layeredColor
         })
     }
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.transform = CGAffineTransform.identity
+        self.backgroundColor = UIColor.white
         
     }
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.transform = CGAffineTransform.identity
+        self.backgroundColor = UIColor.white
     }
 }

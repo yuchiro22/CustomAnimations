@@ -19,6 +19,7 @@
 		505A7948240B34CB00CF38C8 /* MinimizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A7947240B34CB00CF38C8 /* MinimizableButton.swift */; };
 		505A794B240B374100CF38C8 /* TimeInterval_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A794A240B374100CF38C8 /* TimeInterval_Extension.swift */; };
 		505A794D240C7BDA00CF38C8 /* ChangeBackgroundColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A794C240C7BDA00CF38C8 /* ChangeBackgroundColorButton.swift */; };
+		505A794F240C803000CF38C8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505A794E240C803000CF38C8 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		505A7947240B34CB00CF38C8 /* MinimizableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimizableButton.swift; sourceTree = "<group>"; };
 		505A794A240B374100CF38C8 /* TimeInterval_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInterval_Extension.swift; sourceTree = "<group>"; };
 		505A794C240C7BDA00CF38C8 /* ChangeBackgroundColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeBackgroundColorButton.swift; sourceTree = "<group>"; };
+		505A794E240C803000CF38C8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				505A7946240A1EF000CF38C8 /* Base */,
 				505A7938240A0CA500CF38C8 /* ButtonAnimation */,
 				505A792D240A0C6600CF38C8 /* Assets.xcassets */,
+				505A794E240C803000CF38C8 /* Colors.xcassets */,
 				505A7932240A0C6700CF38C8 /* Info.plist */,
 			);
 			path = CustomAnimation;
@@ -167,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505A794F240C803000CF38C8 /* Colors.xcassets in Resources */,
 				505A7931240A0C6700CF38C8 /* LaunchScreen.storyboard in Resources */,
 				505A7940240A0FD500CF38C8 /* ButtonAnimationViewController.storyboard in Resources */,
 				505A792E240A0C6600CF38C8 /* Assets.xcassets in Resources */,
