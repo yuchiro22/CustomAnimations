@@ -47,11 +47,29 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Sf-UV-5yN" customClass="ChangeBackgroundColorButton" customModule="CustomAnimation" customModuleProvider="target">
+                                <rect key="frame" x="157" y="294" width="100" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2MG-1w-zHc"/>
+                                    <constraint firstAttribute="width" constant="100" id="Y25-JI-85e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Layered"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Vh1-gJ-XuI" firstAttribute="top" secondItem="lhx-hd-IbQ" secondAttribute="top" constant="50" id="M80-UX-Ptz"/>
                             <constraint firstItem="Vh1-gJ-XuI" firstAttribute="centerX" secondItem="lhx-hd-IbQ" secondAttribute="centerX" id="TR3-Zk-wcC"/>
+                            <constraint firstItem="2Sf-UV-5yN" firstAttribute="top" secondItem="Gds-zP-XpZ" secondAttribute="bottom" constant="50" id="aKo-M5-QNC"/>
+                            <constraint firstItem="2Sf-UV-5yN" firstAttribute="centerX" secondItem="lhx-hd-IbQ" secondAttribute="centerX" id="oWb-R7-pqM"/>
                             <constraint firstItem="Gds-zP-XpZ" firstAttribute="top" secondItem="Vh1-gJ-XuI" secondAttribute="bottom" constant="50" id="q2y-1r-vns"/>
                             <constraint firstItem="Gds-zP-XpZ" firstAttribute="centerX" secondItem="lhx-hd-IbQ" secondAttribute="centerX" id="uBO-YL-0Dj"/>
                         </constraints>
