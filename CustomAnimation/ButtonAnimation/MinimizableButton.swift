@@ -4,8 +4,10 @@ import UIKit
 final class MinimizableButton: UIButton {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        UIView.animate(withDuration: 0.2, animations: {
-            self.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
+        UIView.animate(
+            withDuration: .defaultAnimationDuration,
+            animations: {
+                self.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
         })
     }
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
