@@ -65,21 +65,42 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaX-GG-qbj" customClass="SingleSonarButton" customModule="CustomAnimation" customModuleProvider="target">
+                                <rect key="frame" x="20" y="394" width="374" height="100"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5Vy-pe-VOO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="SingleSonar">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="lhx-hd-IbQ" firstAttribute="trailing" secondItem="zaX-GG-qbj" secondAttribute="trailing" constant="20" id="8eG-4k-jk4"/>
                             <constraint firstItem="Vh1-gJ-XuI" firstAttribute="top" secondItem="lhx-hd-IbQ" secondAttribute="top" constant="50" id="M80-UX-Ptz"/>
+                            <constraint firstItem="zaX-GG-qbj" firstAttribute="leading" secondItem="lhx-hd-IbQ" secondAttribute="leading" constant="20" id="RUf-eX-6L5"/>
                             <constraint firstItem="Vh1-gJ-XuI" firstAttribute="centerX" secondItem="lhx-hd-IbQ" secondAttribute="centerX" id="TR3-Zk-wcC"/>
                             <constraint firstItem="2Sf-UV-5yN" firstAttribute="top" secondItem="Gds-zP-XpZ" secondAttribute="bottom" constant="50" id="aKo-M5-QNC"/>
                             <constraint firstItem="2Sf-UV-5yN" firstAttribute="centerX" secondItem="lhx-hd-IbQ" secondAttribute="centerX" id="oWb-R7-pqM"/>
                             <constraint firstItem="Gds-zP-XpZ" firstAttribute="top" secondItem="Vh1-gJ-XuI" secondAttribute="bottom" constant="50" id="q2y-1r-vns"/>
                             <constraint firstItem="Gds-zP-XpZ" firstAttribute="centerX" secondItem="lhx-hd-IbQ" secondAttribute="centerX" id="uBO-YL-0Dj"/>
+                            <constraint firstItem="zaX-GG-qbj" firstAttribute="top" secondItem="2Sf-UV-5yN" secondAttribute="bottom" constant="50" id="vwg-re-poL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lhx-hd-IbQ"/>
                     </view>
                     <connections>
                         <outlet property="changeBackgroundColorButton" destination="2Sf-UV-5yN" id="T77-GF-1vd"/>
                         <outlet property="fadeButton" destination="Vh1-gJ-XuI" id="pLG-T1-ZvP"/>
+                        <outlet property="singleSonarButton" destination="zaX-GG-qbj" id="Jab-Ve-aPb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jTZ-6h-K3i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
