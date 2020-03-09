@@ -22,10 +22,19 @@
                                     <segue destination="V6q-De-5w9" kind="showDetail" id="Ag5-rV-USc"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNq-cA-l0W">
+                                <rect key="frame" x="147.5" y="140" width="119" height="30"/>
+                                <state key="normal" title="To Cell Animation"/>
+                                <connections>
+                                    <segue destination="4PD-9C-cEB" kind="show" id="ua5-Qg-tdQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="gNq-cA-l0W" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8ny-cI-fkM"/>
                             <constraint firstItem="QXq-2X-xy9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aCf-GV-dWD"/>
+                            <constraint firstItem="gNq-cA-l0W" firstAttribute="top" secondItem="QXq-2X-xy9" secondAttribute="bottom" constant="33" id="qmf-yB-Q4g"/>
                             <constraint firstItem="QXq-2X-xy9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="yYP-wP-hlt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -42,6 +51,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7fI-Wz-dVT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="824" y="-68"/>
+        </scene>
+        <!--CellAnimationViewController-->
+        <scene sceneID="pQw-je-G48">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CellAnimationViewController" id="4PD-9C-cEB" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="AnF-jR-9v3"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G7L-V8-5Xz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="850" y="86"/>
         </scene>
     </scenes>
 </document>
